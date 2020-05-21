@@ -1,0 +1,6 @@
+@mixin btn {
+	text-transform: uppercase;
+	background-color: $color-default;
+	border: none;
+	padding: 5px 10px;
+}

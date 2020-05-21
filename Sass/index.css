@@ -1,0 +1,38 @@
+body {
+  background-color: #fff;
+}
+
+h1 {
+  color: #000;
+}
+
+.destacado {
+  color: #000;
+}
+
+.destacado .rojo {
+  background-color: red;
+  font-size: 30px;
+  font-weight: bold;
+}
+
+.btn {
+  text-transform: uppercase;
+  background-color: #EBFCFB;
+  border: none;
+  padding: 5px 10px;
+}
+
+.btn.primary {
+  background-color: #B18FCF;
+}
+
+.btn.warning {
+  background-color: #ff3300;
+}
+
+.btn.warning-dark {
+  background-color: #cc2900;
+  color: white;
+}
+/*# sourceMappingURL=index.css.map */

@@ -1,0 +1,35 @@
+@import "variables";
+@import "mixins";
+
+body{
+	background-color: $color-fondo;
+}
+
+h1 {
+	color: $color-primario;
+}
+
+.destacado{
+	color: $color-primario;
+	& .rojo {
+		background-color: red;
+		font: {
+			size: $font-size-destacada;
+			weight: bold;
+		}
+	}
+}
+
+.btn {
+	@include btn;
+	&.primary {
+		background-color: $color-primary;
+	}
+	&.warning {
+		background-color:$color-warning;
+	}
+	&.warning-dark {
+		background-color: darken($color-warning, 10%);
+		color: white;
+	}
+}
