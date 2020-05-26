@@ -1,0 +1,6 @@
+<li [ngClass]="{ completed: done }">
+  <a href="#" class="form-check" (click)="change.emit()" >
+    {{ title }}
+  </a>
+  <i class="remove mdi mdi-close-circle-outline" (click)="remove.emit()"></i>
+</li>
